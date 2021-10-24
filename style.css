@@ -17,13 +17,6 @@ body {
   place-items: center;
 }
 
-/*main {
-  background: url(images/background.png);
-  /*background: lightgray;*/
-  width: 375px;
-  height: 812px;
-}*/
-
 main {
   background: url(images/background.svg) no-repeat center/cover;
   width: 100vw;
