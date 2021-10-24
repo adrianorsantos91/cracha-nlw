@@ -12,7 +12,6 @@ function changeSocialMediaLinks() {
 
     li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
 
-    //alert(li.children[0].href)
   }
 }
 
@@ -26,14 +25,15 @@ function getGitHubProfileInfos() {
     .then(data => {
       userName.textContent = data.name
       userBio.textContent = data.bio
-      user.Link.href = data.html_url
+      userLink.href = data.html_url
       userImage.src = data.avatar_url
       userLogin.textContent = data.login
     })
-  //alert(url)
 }
 
 getGitHubProfileInfos()
+
+
 
 /*ARROW FUNCTIONS
 function nomedafuncao(argumentos, argumentos2){
